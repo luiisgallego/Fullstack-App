@@ -1,0 +1,12 @@
+{
+  "name": "Fullstack-App",
+  "version": "1.0.0",
+  "description": "Aplicación simple Fullstack.",
+  "author": "Luis Gallego Quero",
+  "repository": {
+    "url": "git@github.com:luiisgallego/Fullstack-App.git"
+  },
+  "main": "index.js",
+  "scripts": {    
+  }
+}

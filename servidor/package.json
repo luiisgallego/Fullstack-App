@@ -1,0 +1,14 @@
+{
+  "name": "Fullstack-App-Servidor",
+  "version": "1.0.0",
+  "description": "Aplicación simple Fullstack. SERVIDOR",
+  "author": "Luis Gallego Quero",
+  "repository": {
+    "url": "git@github.com:luiisgallego/Fullstack-App.git"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
