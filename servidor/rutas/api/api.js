@@ -1,4 +1,7 @@
+/****************************   SERVIDOR - RUTAS - API   *****************************/
+
 module.exports = (app) => {
+
     /*  "/"
     *    GET: Devolver status OK
     */
@@ -6,4 +9,5 @@ module.exports = (app) => {
         respuesta = { "status" : "OK" };
         response.status(200).type('json').send(respuesta);    
     });
+
 }
