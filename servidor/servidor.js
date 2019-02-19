@@ -11,15 +11,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 // Importaciones
-require('./rutas')(app)
-
-/*  "/"
- *    GET: Devolver status OK
- */
-app.get('/', (request, response) => {
-    respuesta = { "status" : "OK" };
-    response.status(200).type('json').send(respuesta);    
-});
+require('./rutas')(app);
 
 // Lanzamos la aplicacion
 app.listen(app.get('puerto'), server_ip_address, (error) => {
