@@ -7,7 +7,11 @@
     "url": "git@github.com:luiisgallego/Fullstack-App.git"
   },
   "scripts": {
-    "start": "cd servidor && node servidor.js"
+    "servidor": "cd servidor && node servidor.js",
+    "servidor-test": "",
+    "cliente-test": "",
+    "cliente": "",
+    "start": "concurrently --kill-others-on-fail \"npm run servidor\" \"npm run cliente\""
   },
   "dependencies": {
     "express": "^4.16.4",
