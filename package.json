@@ -10,10 +10,11 @@
     "servidor": "cd servidor && node servidor.js",
     "servidor-test": "cd servidor && mocha --exit",
     "cliente-test": "",
-    "cliente": "",
+    "cliente": "cd cliente && npm run start",
     "start": "concurrently --kill-others-on-fail \"npm run servidor\" \"npm run cliente\""
   },
   "dependencies": {
+    "concurrently": "^4.1.0",
     "express": "^4.16.4",
     "fs": "0.0.1-security",
     "path": "^0.12.7",
