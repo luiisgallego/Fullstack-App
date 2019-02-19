@@ -9,5 +9,4 @@ module.exports = (app) => {
         respuesta = { "status" : "OK" };
         response.status(200).type('json').send(respuesta);    
     });
-
 }

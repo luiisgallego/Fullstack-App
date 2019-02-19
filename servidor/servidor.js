@@ -20,4 +20,4 @@ app.listen(app.get('puerto'), server_ip_address, (error) => {
 });
 
 // Exporta la variable para poder hacer tests
-// module.exports = app;
+module.exports = app;
