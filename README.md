@@ -17,5 +17,3 @@ npm install
 ~~~
 npm start
 ~~~~
-
-## Prueba
