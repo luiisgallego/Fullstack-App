@@ -14,8 +14,8 @@
     "start": "concurrently --kill-others-on-fail \"npm run servidor\" \"npm run cliente\""
   },
   "dependencies": {
-    "concurrently": "^4.1.0",
-    "express": "^4.16.4",
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
     "fs": "0.0.1-security",
     "path": "^0.12.7",
     "should": "^13.2.3",
